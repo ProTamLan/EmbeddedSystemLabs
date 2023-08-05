@@ -1,0 +1,10 @@
+Dependencies for Project 'Lab5', Target 'FunctionsInC': (DO NOT MODIFY !)
+F (.\startup.s)(0x57020C08)(--cpu Cortex-M4 --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-I F:\Keil\ARM\RV31\INC-I F:\Keil\ARM\CMSIS\Include-I F:\Keil\ARM\Inc\Luminary--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\UART.c)(0x54A0FC4C)(-c --cpu Cortex-M4 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I F:\Keil\ARM\RV31\INC-I F:\Keil\ARM\CMSIS\Include-I F:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\uart.o --omf_browse .\uart.crf --depend .\uart.d)
+I (UART.h)(0x54A0FC5A)
+I (F:\Keil\ARM\ARMCC\include\stdio.h)(0x51C89844)
+F (.\main.c)(0x64B9A02C)(-c --cpu Cortex-M4 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I F:\Keil\ARM\RV31\INC-I F:\Keil\ARM\CMSIS\Include-I F:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (F:\Keil\ARM\ARMCC\include\stdio.h)(0x51C89844)
+I (uart.h)(0x54A0FC5A)
+I (TExaS.h)(0x5699DC00)
+F (.\texas.o)(0x5699DC00)()
